@@ -67,7 +67,7 @@ const Home = () => {
        <img 
       src={saree1} 
       alt="Lahenga 3" 
-      className="hidden lg:block w-full h-auto rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
+      className="block md:hidden lg:block w-full h-auto rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
     />
     {/* You can add more images here */}
   </div>
