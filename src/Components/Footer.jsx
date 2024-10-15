@@ -14,7 +14,7 @@ function Footer() {
           <p className="text-sm">
             © Website Designed & Developed by <a target="_blank" href="https://www.linkedin.com/in/tusha3009" className="text-[#16f2b3]">Tusha</a>
           </p>
-          <div className="flex items-center gap-5">
+          {/* <div className="flex items-center gap-5">
             <a
               target="_blank"
               href="https://github.com/tusha-30"
@@ -31,7 +31,7 @@ function Footer() {
               <CgGitFork />
               <span>Fork</span>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </div >

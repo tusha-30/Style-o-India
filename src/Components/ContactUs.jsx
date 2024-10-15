@@ -7,6 +7,7 @@ import { IoLogoGithub, IoMdCall } from "react-icons/io";
 import { MdAlternateEmail } from "react-icons/md";
 import { personalData } from '../Utils/personal-data'; 
 import ContactForm from './ContactForm';
+import { RiInstagramFill } from 'react-icons/ri';
 const ContactUs = () => {
     return (
         <div id="contact" className="my-12 lg:my-16 relative mt-24 text-white">
@@ -48,14 +49,14 @@ const ContactUs = () => {
                 </p>
               </div>
               <div className="mt-8 lg:mt-16 flex items-center gap-5 lg:gap-10">
-                <a target="_blank" href={personalData.github}>
+                {/* <a target="_blank" href={personalData.github}>
                   <IoLogoGithub
                     className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                     size={48}
                   />
-                </a>
+                </a> */}
                 <a target="_blank" href={personalData.linkedIn}>
-                  <BiLogoLinkedin
+                  <RiInstagramFill
                     className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                     size={48}
                   />

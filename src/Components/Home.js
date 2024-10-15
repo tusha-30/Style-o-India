@@ -7,6 +7,8 @@ import img2 from "../Components/Images/i2.jpg"
 import img3 from "../Components/Images/i1.jpg"
 import l1 from "../Components/Images/lah1.jpg"
 import l2 from "../Components/Images/lah2.jpg"
+import n1 from "../Components/Images/n6.jpg"
+import n2 from "../Components/Images/n7.jpg"
 import saree1 from "../Components/Images/saree1.jpg"
 import Marquee from "react-fast-marquee";
 const skillsImage = [
@@ -15,8 +17,7 @@ const skillsImage = [
   require('../Components/Images/n3.jpg'),
   require('../Components/Images/n4.jpg'),
   require('../Components/Images/n5.jpg'),
-  require('../Components/Images/n6.jpg'),
-  require('../Components/Images/n7.jpg'),
+
 ];
 const Home = () => {
   return (
@@ -48,11 +49,32 @@ const Home = () => {
           <div>
             <img src={img3} alt="Slide 3" className="w-full h-auto" />
           </div>
+    
         </Carousel>
       </div>
+
+
       <div className="px-4 py-8">
   <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-6 ]">Explore our Exclusive Collections!</h2>
   
+  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+    <img 
+      src={n1} 
+      alt="Lahenga 1" 
+      className="w-full h-auto rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
+    />
+    <img 
+      src={n2} 
+      alt="Lahenga 2" 
+      className="w-full h-auto rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
+    />
+      
+    {/* You can add more images here */}
+  </div>
+</div>
+      <div className="px-4 ">
+  {/* <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-6 ]">Explore our Exclusive Collections!</h2>
+   */}
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
     <img 
       src={l1} 
@@ -72,6 +94,8 @@ const Home = () => {
     {/* You can add more images here */}
   </div>
 </div>
+
+
 <div id="skills" className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">
   <div className="w-[300px] h-[300px] bg-violet-100 rounded-full absolute top-6 left-[42%] translate-x-1/2 filter blur-3xl opacity-20"></div>
 
@@ -113,7 +137,7 @@ const Home = () => {
               </div>
             </div>
             <div className="flex flex-col items-center justify-center gap-4 p-4">
-              <div className="h-48 sm:h-56">
+              <div className="h-80 sm:h-96">
                 <img
                   src={image}
                   alt={`Skill Image ${id + 1}`}
