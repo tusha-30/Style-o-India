@@ -69,7 +69,7 @@ const Home = () => {
       className="w-full h-auto rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
     />
       
-    {/* You can add more images here */}
+
   </div>
 </div>
       <div className="px-4 ">
